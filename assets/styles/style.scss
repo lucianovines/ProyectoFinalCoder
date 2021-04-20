@@ -5,7 +5,7 @@
 }
 
 .bg-dark{
-    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
        a{
         color: #f0b400 !important;
         font-size: 25px;
@@ -16,7 +16,20 @@
     }
 }
 
+.bg-light{
+  background-color: transparent !important;
+} 
+.navbar-brand {
+  font-size: 2.5em;
+  color: white !important;
+  border: 0px;
 
+}
+
+.filasContenido{
+  margin-bottom: 10em;
+  margin-top: 5em;
+}
 
 form{
     text-align: center;
@@ -86,7 +99,7 @@ form{
 main{
     video{
       object-fit: cover;
-      width: 100vw;
+      width: 99vw;
       height: 100vh;
       position: absolute;
       top: 0;
@@ -152,11 +165,20 @@ main{
 }
 
   footer{
-    background: #9a9a9a;
-    background: -webkit-gradient(linear, left top, right top, from(#9a9a9a), color-stop(14%, white), color-stop(85%, white), to(#949494));
-    background: linear-gradient(90deg, #9a9a9a 0%, white 14%, white 85%, #949494 100%);
-    color: #2a2a2a;
+    background: black;
+    color: white;
     text-align: center;
+    height: 10em;
+  }
+
+  .grid-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+  }
+  .grid-item{
+    border: 2px solid white;
   }
 
 
