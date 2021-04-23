@@ -27,9 +27,22 @@ body {
 }
 
 .navbar-brand {
-  font-size: 2.5em;
-  color: white !important;
-  border: 0px;
+  font-size: 2em !important;
+}
+
+.navbar-brand img {
+  margin: 0 15px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+.navbar-center li {
+  padding: 0 1.2em;
 }
 
 .filasContenido {
@@ -327,7 +340,6 @@ footer a {
 .fondonaranja {
   background-color: #f18624;
   color: white;
-  padding: 0 !important;
 }
 
 .container-fluid {

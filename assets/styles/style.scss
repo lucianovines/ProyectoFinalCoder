@@ -7,6 +7,7 @@ body{
   background-color: #F5F5F5;
 }
 
+
 .bg-dark{
     background-color: rgba(0, 0, 0, 0.3) !important;
        a{
@@ -23,10 +24,19 @@ body{
   background-color: transparent !important;
 } 
 .navbar-brand {
-  font-size: 2.5em;
-  color: white !important;
-  border: 0px;
+  font-size: 2em !important;
+    img{
+    margin: 0 15px;
+    }
+}
 
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  li{
+    padding: 0 1.2em;
+  }
 }
 
 .filasContenido{
@@ -281,7 +291,6 @@ $colores: white,red,green;
 .fondonaranja{
   background-color: #f18624;
   color: white;
-  padding: 0 !important;
 }
 .container-fluid{
   padding-left: 0 !important;
