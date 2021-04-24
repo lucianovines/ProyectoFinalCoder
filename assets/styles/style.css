@@ -13,19 +13,19 @@ body {
 }
 
 .bg-dark a {
-  color: #E78A12 !important;
+  color: white !important;
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
 }
 
 .bg-dark a:hover {
-  color: #0D3F69 !important;
+  color: #E78A12 !important;
   text-decoration: underline;
 }
 
 .brand {
-  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: "Josefin Sans", sans-serif !important;
 }
 
 .bg-light {
@@ -80,12 +80,6 @@ main img {
   visibility: visible;
 }
 
-main h1 {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-}
-
 .tituloPagina {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,7 +104,7 @@ main h1 {
   font-size: 7em !important;
 }
 
-#fondoNegro {
+.fondoNegro {
   background: rgba(0, 0, 0, 0.5);
   z-index: -4;
   position: absolute;
@@ -135,26 +129,26 @@ footer a {
 .row__h1 {
   color: #313A3D;
   font-size: 3em;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .row__p {
   color: #313A3D;
   font-size: 1.5em;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .row__h2 {
   font-size: 3em;
   color: #313A3D;
   margin: 0;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .row__p2 {
   font-size: 1.8em;
   color: #313A3D;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .gridContainer {
@@ -225,6 +219,10 @@ footer a {
   color: #0D3F69;
 }
 
+.letrablanca {
+  color: white !important;
+}
+
 .fondoblanco {
   background-color: white !important;
 }
@@ -232,6 +230,14 @@ footer a {
 .fondonaranja {
   background-color: #E78A12;
   color: white;
+}
+
+.fondoazul {
+  background-color: #0D3F69;
+}
+
+.fondogris {
+  background-color: #313A3D;
 }
 
 .container-fluid {
@@ -330,5 +336,19 @@ footer a {
 
 .formMargin {
   margin-bottom: 4em;
+}
+
+.contactbutton {
+  margin: 5px !important;
+  padding: 1em 1.8em;
+  border: #313A3D solid 1px;
+  background-color: #0D3F69;
+  color: white;
+  text-decoration: none;
+}
+
+.contactbutton:hover {
+  color: white;
+  background-color: #E78A12;
 }
 /*# sourceMappingURL=style.css.map */
