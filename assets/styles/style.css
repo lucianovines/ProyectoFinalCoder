@@ -104,21 +104,6 @@ main h1 {
   font-size: 7em !important;
 }
 
-.tituloPagina .tituloPagina__boton {
-  background-color: transparent;
-  border: solid 1px white;
-  width: 20em;
-  color: white;
-  margin: 0 auto;
-  padding: 2em 2em 2em 2em;
-}
-
-.tituloPagina .tituloPagina__boton:hover {
-  background-color: white;
-  color: green;
-  border: solid 3px black;
-}
-
 #fondoNegro {
   background: rgba(0, 0, 0, 0.5);
   z-index: -4;
@@ -141,23 +126,14 @@ footer a {
   padding: 3px 10px;
 }
 
-.row {
-  color: #142938 !important;
-}
-
 .row .row__h1 {
+  color: #313A3D;
   font-size: 3em;
 }
 
 .row .row__p {
+  color: #313A3D;
   font-size: 1.5em;
-}
-
-.row .row__patro--animado:hover {
-  -webkit-transform: scale(2, 2);
-          transform: scale(2, 2);
-  -webkit-transition: all 5s;
-  transition: all 5s;
 }
 
 .gridContainer {
@@ -224,8 +200,8 @@ footer a {
   min-width: 120px;
 }
 
-.flexContainer .flexItem i {
-  color: #24245B;
+.flexContainer .flexItem .fas {
+  color: #0D3F69;
 }
 
 .fondoblanco {
@@ -233,7 +209,7 @@ footer a {
 }
 
 .fondonaranja {
-  background-color: #f18624;
+  background-color: #E78A12;
   color: white;
 }
 
@@ -246,16 +222,32 @@ footer a {
   font-size: 5em !important;
 }
 
+.contactform {
+  margin-bottom: 3em !important;
+}
+
 .contactform input, .contactform textarea {
   width: 40%;
   padding: 1em;
   margin: 0.8em;
-  border: solid 1px #24245B;
+  border: solid 1px #0D3F69;
   border-radius: 5px;
 }
 
+.contactform input:focus, .contactform textarea:focus {
+  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  border: solid 2px #E78A12;
+}
+
 .contactform .button {
-  background-color: #24245B;
+  background-color: #0D3F69;
   color: white;
   border: none;
   font-size: 1.5em;
@@ -264,8 +256,58 @@ footer a {
 }
 
 .contactform .button:hover {
-  background-color: #f18624;
-  color: #24245B;
+  background-color: #E78A12;
+  color: #0D3F69;
   border: none;
+  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+@-webkit-keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+
+.formMargin {
+  margin-bottom: 4em;
 }
 /*# sourceMappingURL=style.css.map */

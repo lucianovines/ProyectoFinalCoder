@@ -1,6 +1,6 @@
 //Colores
-$principal: #f18624;
-$secundario: #24245B;
+$principal: #E78A12;
+$secundario: #0D3F69;
 $colortexto: #313A3D;
 
 * {
@@ -98,25 +98,9 @@ main{
         color: white ;
         font-size: 7em !important;
       }
-     
-      .tituloPagina__boton {
-        background-color: transparent;
-        border: solid 1px white;
-        width: 20em;
-        color: white;
-        margin: 0 auto;
-        padding: 2em 2em 2em 2em;
-        &:hover{
-            background-color: white;
-            color: green;
-            border: solid 3px black;
-          }
-    }
-    
-        
-        
-          
-  }
+    }       
+  
+
   #fondoNegro {
   background: rgba(0, 0, 0, 0.5);
   z-index: -4;
@@ -127,35 +111,30 @@ main{
   height: 100vh;
 }
 
-  footer{
-    background: black;
-    color: white;
-    text-align: center;
-    height: 4em;
-    a{
-      color: white !important;
-      padding: 3px 10px;
-    }
-  }
+ footer{
+   background: black;
+   color: white;
+   text-align: center;
+   height: 4em;
+   a{
+     color: white !important;
+     padding: 3px 10px;
+   }
+ }
 
 
 
 .row{
-    color:#142938 !important;
     .row__h1{
-        font-size: 3em;
+      color: $colortexto;
+      font-size: 3em;
     }
     .row__p{
-        font-size: 1.5em;
-    }
-    .row__patro--animado{
-        &:hover{
-            transform: scale(2,2);
-            transition: all 5s;
-        }
-        
-    }
+      color: $colortexto;
+      font-size: 1.5em;
+    }     
 }
+
 
 //Grid
 .gridContainer{
@@ -198,10 +177,11 @@ main{
     text-align: center;
     width: 30%;
     min-width: 120px;
-    i{
-      color: #24245B;
+    .fas{
+      color: $secundario;
     }
   }
+
 
 }
 .fondoblanco{
@@ -210,7 +190,7 @@ main{
 }
 
 .fondonaranja{
-  background-color: #f18624;
+  background-color: $principal;
   color: white;
 }
 .container-fluid{
@@ -224,12 +204,20 @@ main{
 
 
 .contactform{
+  margin-bottom: 3em !important;
   input, textarea{
-    width: 60%;
+    width: 40%;
     padding: 1em;
     margin: 0.8em;
     border: solid 1px $secundario;
     border-radius: 5px;
+    &:focus{
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+      border: solid 2px $principal;
+    }
   }
   .button{
     background-color: $secundario;
@@ -242,7 +230,32 @@ main{
       background-color: $principal;
       color: $secundario;
       border:none;
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
     }
   }
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.formMargin{
+  margin-bottom: 4em;
+}
