@@ -18,12 +18,17 @@ body{
        a{
         color: $principal !important;
         font-size: 25px;
+        font-family: 'Roboto', sans-serif;
         &:hover{
                color: $secundario !important;
                text-decoration: underline;
         }
     }
 }
+.brand{
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
 
 .bg-light{
   background-color: transparent !important;
@@ -94,9 +99,10 @@ main{
     height: 100vh;
     text-align: center;
     .tituloPagina__titulo{
-        font-family: 'Jura', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
         color: white ;
         font-size: 7em !important;
+       
       }
     }       
   
@@ -128,19 +134,23 @@ main{
 .row__h1{
   color: $colortexto;
   font-size: 3em;
+  font-family: 'Bebas Neue', cursive;
 }
 .row__p{
   color: $colortexto;
   font-size: 1.5em;
+  font-family: 'Roboto Slab', serif;
 }   
 .row__h2{
   font-size: 3em;
   color: $colortexto;
   margin: 0;
+  font-family: 'Bebas Neue', cursive;
 }
 .row__p2{
   font-size: 1.8em;
   color: $colortexto;
+  font-family: 'Roboto Slab', serif;
 }
 
 
