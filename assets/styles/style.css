@@ -13,12 +13,12 @@ body {
 }
 
 .bg-dark a {
-  color: #f0b400 !important;
+  color: #E78A12 !important;
   font-size: 25px;
 }
 
 .bg-dark a:hover {
-  color: #c09000 !important;
+  color: #0D3F69 !important;
   text-decoration: underline;
 }
 
@@ -126,14 +126,25 @@ footer a {
   padding: 3px 10px;
 }
 
-.row .row__h1 {
+.row__h1 {
   color: #313A3D;
   font-size: 3em;
 }
 
-.row .row__p {
+.row__p {
   color: #313A3D;
   font-size: 1.5em;
+}
+
+.row__h2 {
+  font-size: 3em;
+  color: #313A3D;
+  margin: 0;
+}
+
+.row__p2 {
+  font-size: 1.8em;
+  color: #313A3D;
 }
 
 .gridContainer {

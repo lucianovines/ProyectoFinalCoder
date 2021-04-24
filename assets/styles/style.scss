@@ -16,10 +16,10 @@ body{
 .bg-dark{
     background-color: rgba(0, 0, 0, 0.3) !important;
        a{
-        color: #f0b400 !important;
+        color: $principal !important;
         font-size: 25px;
         &:hover{
-               color: #c09000 !important;
+               color: $secundario !important;
                text-decoration: underline;
         }
     }
@@ -124,15 +124,23 @@ main{
 
 
 
-.row{
-    .row__h1{
-      color: $colortexto;
-      font-size: 3em;
-    }
-    .row__p{
-      color: $colortexto;
-      font-size: 1.5em;
-    }     
+
+.row__h1{
+  color: $colortexto;
+  font-size: 3em;
+}
+.row__p{
+  color: $colortexto;
+  font-size: 1.5em;
+}   
+.row__h2{
+  font-size: 3em;
+  color: $colortexto;
+  margin: 0;
+}
+.row__p2{
+  font-size: 1.8em;
+  color: $colortexto;
 }
 
 
