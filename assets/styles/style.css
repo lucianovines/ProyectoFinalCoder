@@ -16,6 +16,7 @@ body {
   color: #E78A12 !important;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 .bg-dark a:hover {

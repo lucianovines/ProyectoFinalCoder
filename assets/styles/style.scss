@@ -19,6 +19,7 @@ body{
         color: $principal !important;
         font-size: 25px;
         font-family: 'Roboto', sans-serif;
+        font-weight: 600;
         &:hover{
                color: $secundario !important;
                text-decoration: underline;
