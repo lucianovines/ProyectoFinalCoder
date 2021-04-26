@@ -7,7 +7,7 @@ $colortexto: #313A3D;
 $titulos: 'Bebas Neue', cursive;;
 $parrafos: 'Roboto Slab', serif;;
 $logo: 'Josefin Sans', sans-serif ;
-$menu:'Roboto Condensed', sans-serif;
+$menu:'Baloo 2', cursive;
 
 * {
     padding: 0;
@@ -23,7 +23,7 @@ body{
     background-color: rgba(0, 0, 0, 0.3) !important;
        a{
         color: $principal !important;
-        font-size: 25px;
+        font-size: 1.7em;
         font-family: $menu;
         font-weight: 200;
         &:hover{
@@ -32,8 +32,11 @@ body{
         }
     }
 }
-.brand{
+
+.brandName{
   font-family: $logo !important;
+  color: $principal;
+  font-size: 2em;
 }
 
 
@@ -41,9 +44,8 @@ body{
   background-color: transparent !important;
 } 
 .navbar-brand {
-  font-size: 2em !important;
     img{
-    margin: 0 15px;
+    margin-left: 15px;
     }
 }
 
