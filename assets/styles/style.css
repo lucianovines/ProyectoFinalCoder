@@ -9,7 +9,7 @@ body {
 }
 
 .bg-dark {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
 .bg-dark a {
@@ -349,5 +349,14 @@ footer a {
 .contactbutton:hover {
   color: white;
   background-color: #E78A12;
+}
+
+.reasons {
+  width: 20em;
+  margin: 3em;
+}
+
+.padding0 {
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -20,7 +20,7 @@ body{
 
 
 .bg-dark{
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
        a{
         color: $principal !important;
         font-size: 1.7em;
@@ -308,4 +308,13 @@ $medidaprueba: calc(100%-100px);
     color: white;
     background-color: $principal;
   }
+}
+
+.reasons{
+  width: 20em;
+  margin: 3em;
+}
+
+.padding0{
+  padding: 0;
 }
