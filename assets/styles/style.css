@@ -130,12 +130,6 @@ footer a {
   font-family: "Bebas Neue", cursive;
 }
 
-.row__p {
-  color: #313A3D;
-  font-size: 1.5em;
-  font-family: "Roboto Slab", serif;
-}
-
 .row__h2 {
   font-size: 3em;
   color: #313A3D;
@@ -143,10 +137,34 @@ footer a {
   font-family: "Bebas Neue", cursive;
 }
 
+.row__h3 {
+  font-size: 2em;
+  color: #313A3D;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+.row__p {
+  color: #313A3D;
+  font-size: 1.5em;
+  font-family: "Roboto Slab", serif;
+}
+
 .row__p2 {
   font-size: 1.8em;
   color: #313A3D;
   font-family: "Roboto Slab", serif;
+}
+
+.row__p3 {
+  color: #313A3D;
+  font-size: 1em;
+  font-family: "Roboto Slab", serif;
+}
+
+.fontawesome {
+  font-size: 5em;
+  color: #0D3F69;
 }
 
 .gridContainer {
@@ -340,15 +358,18 @@ footer a {
 .contactbutton {
   margin: 5px !important;
   padding: 1em 1.8em;
-  border: #313A3D solid 1px;
-  background-color: #0D3F69;
-  color: white;
+  border: #E78A12 solid 2px !important;
+  background-color: white;
+  color: #E78A12;
   text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
 }
 
 .contactbutton:hover {
   color: white;
   background-color: #E78A12;
+  border: black solid 2px !important;
 }
 
 .reasons {
