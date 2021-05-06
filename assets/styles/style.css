@@ -51,7 +51,7 @@ body {
 
 .filasContenido {
   margin-bottom: 10em;
-  margin-top: 5em;
+  margin-top: 7em;
 }
 
 main video {
@@ -523,10 +523,6 @@ footer a {
   .sponsors img {
     width: 60%;
     margin: 1em;
-  }
-  .filasContenido {
-    margin-bottom: 2em;
-    margin-top: 2em;
   }
   .tituloPagina__titulo {
     font-size: 12vw !important;
