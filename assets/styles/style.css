@@ -99,7 +99,7 @@ main img {
 .tituloPagina .tituloPagina__titulo {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
-  font-size: 8vw !important;
+  font-size: 8vw;
 }
 
 .fondoNegro {
@@ -393,6 +393,18 @@ footer a {
   color: #E78A12 !important;
 }
 
+.navbar-toggler {
+  border: none !important;
+  border-radius: 0.25rem;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 @media screen and (max-width: 600px) {
   .tituloPagina__titulo {
     font-size: 20vw !important;
@@ -515,6 +527,23 @@ footer a {
   .filasContenido {
     margin-bottom: 2em;
     margin-top: 2em;
+  }
+  .tituloPagina__titulo {
+    font-size: 12vw !important;
+  }
+  .responsiveMargins {
+    padding-right: 1.5em !important;
+    padding-left: 1.5em !important;
+  }
+  .usImagen {
+    width: 0;
+  }
+  .reasons {
+    width: 20em;
+    margin: 1em;
+  }
+  .navbar-expand-md .navbar-toggler {
+    background-color: red !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
