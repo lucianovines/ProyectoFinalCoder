@@ -542,7 +542,7 @@ footer a {
     width: 20em;
     margin: 1em;
   }
-  .navbar-expand-md .navbar-toggler {
+  .navbar-nav .dropdown-menu {
     background-color: red !important;
   }
 }
